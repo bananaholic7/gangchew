@@ -1,0 +1,17 @@
+#sliderContainer{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+
+}
+
+#sliderImg{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+#sliderSize{
+    width: 100%;
+}
