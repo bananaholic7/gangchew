@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/gangchew.iml" filepath="$PROJECT_DIR$/.idea/gangchew.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/gangchoose_fe.iml" filepath="$PROJECT_DIR$/.idea/gangchoose_fe.iml" />
+>>>>>>> dace8499d0236446d45d34a4805388373c0a98bb
     </modules>
   </component>
 </project>
