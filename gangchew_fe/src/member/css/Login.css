@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 100vh;
+}
+
+.left {
+  background-color: #cccbcb;
+}
+.right {
+  height: 100vh;
+}
+
+.logo-name {
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10%;
+}
+
+.login-input {
+  width: 100%;
+  height: 30%;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.input-group {
+  margin: 20px;
+}
+
+.input-id {
+  height: 3rem;
+  width: 25rem;
+  border-radius: 10px;
+  border: hidden;
+
+  background-color: rgb(247, 216, 251);
+}
+
+.input-password {
+  height: 3rem;
+  width: 25rem;
+  border-radius: 10px;
+  border: hidden;
+  background-color: rgb(247, 216, 251);
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+  color: rgb(204, 18, 233);
+}
+
+.join-link {
+  margin: auto;
+  width: 25rem;
+}
+
+.join-link p {
+  font-size: 12px;
+  text-align: right;
+}
+
+.join-link p a {
+  text-decoration-line: none;
+  color: rgb(178, 8, 204);
+}
+
+.action {
+  margin-top: 40px;
+  text-align: center;
+}
+
+hr {
+  width: 25rem;
+  margin-top: 5%;   
+}
+
+.submit-button {
+  height: 3rem;
+  width: 25rem;
+}
+
+.api-login-button {
+  list-style-type: none;
+  display: flex;
+  padding: 30px 65px 0 65px;
+  justify-content: space-around;
+}
