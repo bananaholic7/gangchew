@@ -1,7 +1,16 @@
+
+import TitleTextFilelds from '../component/inputs/TitleTextFields';
+import React, { useState } from 'react';
 import fundingCreate from "../funding/css/fundingCreate.css";
 
 export default function FundingCreate() {
 
+    const [projectTitle, setProjectTitle] = useState('');
+    // input 컴포넌트에서 호출할 함수
+    const handleInputChange = (newValue) => {
+        setProjectTitle(newValue);
+    };
+    
     return (
         <div>
             <div id="p_headerarea"></div>{/**헤더에 가려지는 부분 */}
@@ -26,7 +35,8 @@ export default function FundingCreate() {
                     <div>
                         <h2>Project 이름</h2>
                         <div id="p_nameInput">
-
+                            <TitleTextFilelds size={75} text={'프로젝트 이름'} onInputChange={handleInputChange}/>
+                            {console.log(projectTitle)}
                         </div>
                         <div id="p_note">
 
@@ -36,21 +46,25 @@ export default function FundingCreate() {
                         <h2>세부 사항</h2>
                         <div id="p_infocontainer">
                             <div id="p_category">카테고리</div>
-                            <select>
-                                <option>카테고리 추가예정</option>
-                            </select>
+                                
                             <div>마감날짜</div>
                             <div id="p_deadline">
 
                             </div>
                         </div>
                         <div id="p_amount">
-
+                            
                         </div>
                         <div id="p_infocontainer">
-                            <div id="p_goal"></div>
-                            <div id="p_min"></div>
-                            <div id="p_max"></div>
+                            <div id="p_goal">
+                                
+                            </div>
+                            <div id="p_min">
+                                
+                            </div>
+                            <div id="p_max">
+                               
+                            </div>
                         </div>
                         <div id="p_note">
 
