@@ -33,9 +33,11 @@
     display: flex;
 }
 
-h2{
+#h_h2{
     display: flex;
     align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #list{
