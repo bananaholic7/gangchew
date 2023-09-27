@@ -4,6 +4,7 @@ import './App.css';
 import Header from './main/Header';
 import FundingList from './funding/FundingList';
 import FundingCreate from './funding/FundingCreate';
+import Login from './member/Login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/*홈*/}
         <Route exact path='/fundinglist' element={<FundingList/>}/>
         <Route exact path='/fundingcreate' element={<FundingCreate/>}/>
+        <Route exact path='/login' element={<Login/>}/>
       </Routes>
     {/* 푸터 컴포넌트 들어갈 부분*/}
     </BrowserRouter>
