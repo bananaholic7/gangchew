@@ -13,6 +13,9 @@ body {
 }
 .right {
   height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
 .logo-name {
@@ -22,9 +25,13 @@ body {
     margin-bottom: 10%;
 }
 
+.undifined {
+  width: 536px;
+}
+
 .login-input {
   width: 100%;
-  height: 30%;
+  height: 300px;
   margin-top: 25%;
   text-align: center;
 }
@@ -71,7 +78,6 @@ input::placeholder {
 }
 
 .action {
-  margin-top: 40px;
   text-align: center;
 }
 
