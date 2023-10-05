@@ -4,6 +4,12 @@ import { useRef } from 'react';
 import { Editor } from '@toast-ui/react-editor';
 import '@toast-ui/editor/dist/toastui-editor.css';
 
+/**
+ * name(String) : 객체로 담아야 할 경우, 객체의 key값 부분입니다.
+ * handleInputChange(func): 콜백함수 입니다. => 부모 컴포넌트에서 콜백함수 설정해야 함.
+ * @param {*} param0 
+ * @returns 
+ */
 export default function ToastEditor({name ,handleInputChange}) {
   // Editor DOM 선택용
   const editorRef = useRef();
