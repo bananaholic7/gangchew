@@ -1,0 +1,86 @@
+.c_HeaderBlank{
+    height: 200px;
+    
+    display: flex;
+    
+}
+
+.c_Container{
+    height: 800px;
+    
+    display: flex;
+}
+
+
+.c_Left1{
+    width: 20%;
+   
+   
+    
+}
+
+.c_Right1{
+    width: 20%;
+    
+   
+}
+
+.c_Center1{
+    width: 60%;
+}
+.c_buttonContainer{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.c_Category{
+    margin-top: 20px;
+}
+
+.c_Content{
+    margin-top: 20px;
+}
+
+.c_hr{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.c_BtnContainer{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.c_EditButton{
+    width:auto;
+    margin-right: 15px;
+}
+.c_DeleteButton{
+    width:auto;
+}
+.c_BtnBox{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: right;
+}
+.c_LikeBtn{
+    width: auto;
+    margin-right: 15px;
+}
+.c_CommentBtn{
+    width: auto;
+}
+.c_CommentBox{
+    width: auto;
+}
+.c_CommentSaveBox{
+
+}
+.c_CommentSaveBtn{
+    display: flex;
+    width: auto;
+    justify-content: right;
+    
+}
