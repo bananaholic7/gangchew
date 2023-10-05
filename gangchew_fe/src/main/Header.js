@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 
 
 const Header =()=> {
-
+    if (window.location.pathname === '/login') return null;
     return (
         <div>
             <div id ="scroll_wrapper">
